@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #289D51, #F0F0F0);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+  }
+  .container {
+    max-width: 500px; 
+    width: 100%; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+  }
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .btn-success {
+    background-color: #289D51;
+    border: none;
+  }
+  #result {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
